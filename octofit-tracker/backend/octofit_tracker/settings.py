@@ -42,7 +42,7 @@ INSTALLED_APPS = [
     "corsheaders",
 ]
 
-INSTALLED_APPS += ["octofit_tracker"]
+INSTALLED_APPS += ["octofit_tracker", "djongo"]
 
 MIDDLEWARE = [
     "corsheaders.middleware.CorsMiddleware",
@@ -76,7 +76,7 @@ WSGI_APPLICATION = "octofit_tracker.wsgi.application"
 
 
 # Database
-# https://docs.djangoproject.com/en/5.2/ref/settings/#databases
+#https://docs.djangoproject.com/en/5.2/ref/settings/#databases
 
 DATABASES = {
     'default': {
